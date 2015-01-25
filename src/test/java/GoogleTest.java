@@ -12,7 +12,7 @@ public class GoogleTest {
 	public void verifySearch() throws InterruptedException {
 		driver = new FirefoxDriver();
 		driver.get("http://www.google.com/");
-		Thread.sleep(10000);
+		Thread.sleep(12000);
 		driver.quit();
 	}
 }
